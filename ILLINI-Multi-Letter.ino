@@ -8,15 +8,11 @@
   #include <avr/power.h>
 #endif
 // Which pin on the Arduino is connected to the NeoPixels?
-// On a Trinket or Gemma we suggest changing this to 1
 #define PIN            2
 #define PINA           3
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS      50
 
-// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
-// Note that for older NeoPixel stri ps you might need to change the third parameter--see the strandtest
-// example for more information on possible values.
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_BRG + NEO_KHZ800);
 Adafruit_NeoPixel pixel2 = Adafruit_NeoPixel(NUMPIXELS, PINA, NEO_BRG + NEO_KHZ800);
 int delayvala; // delay for half a second
