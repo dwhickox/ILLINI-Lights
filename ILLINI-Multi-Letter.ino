@@ -1,7 +1,7 @@
-#include <TimedAction.h>
+//illini lights multi letter sketch (c) 2018 David Hickox
+//released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// released under the GPLv3 license to match the rest of the AdaFruit NeoPixel library
+#include <TimedAction.h>
 
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
